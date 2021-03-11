@@ -3,13 +3,6 @@
   margin:0%;
   box-sizing: border-box;
 }
-.container{
-  justify-content: flex-end;
-  color:darkgray;
-  display:flex;
-  margin-left:50px;
-  margin-right: 50px;
-}
 
 header{
   width:100vw;
@@ -17,32 +10,54 @@ header{
   justify-content: flex-end;
   flex-direction: row;
   padding: 3%;
-  background-color: lightgrey;
+  background-color:lightgrey;
+  
   }
- .items{  
+   nav{  
   margin:25px; 
-  color: fuchsia;
-  padding:10px;                                                                                           
   }
-  .contacto{
-    margin:25px; 
-    border-radius: 25%;
-    background-color: white;
-    width:200px;
-    padding:10px;
-    text-align: center;
-    color:grey
-  }
-main{
+  ul{
   display:flex;
-  margin-left:50px;
+  flex-direction: row;
+  list-style:none;
+  
+  
+   }
+span{
+  padding-left:20px;  
+  }
+  a{
+  text-decoration: none;
+  color:darkblue
+}
+.contacto{
+  width:130px;
+  border-radius: 35px;
+  background-color: whitesmoke;
+  padding:3px;
+  height: 40px;
+}
+   
+  main{ 
+  display:flex;
+  padding-left:50px;
   margin-right: 50px;
   flex-direction: row;
   width: 100vw;
-  height: 100vh;
-  justify-content: flex-start;
+  height:500px;
+  background-color: lightsteelblue;
   align-items: center;
-  color: grey;
-  background-color:
+  color:darkblue;   
+  flex-direction: row;
 }
-  
+
+ .sectionizq{
+font-size: 22px;
+flex-grow:1;
+}
+.sectionder{
+  flex-grow:1 
+  }
+  p{
+
+  }
