@@ -10,54 +10,83 @@ header{
   justify-content: flex-end;
   flex-direction: row;
   padding: 3%;
-  background-color:lightgrey;
+  background-color:rgb(234, 235, 242)
   
   }
    nav{  
-  margin:25px; 
+  margin-left: 50px; 
+  margin-right:50px;
   }
   ul{
   display:flex;
   flex-direction: row;
   list-style:none;
-  
-  
-   }
-span{
-  padding-left:20px;  
+  }
+
+  span{
+  padding-left:50px;  
   }
   a{
   text-decoration: none;
-  color:darkblue
+  color:rgb(3, 25, 155)
 }
 .contacto{
-  width:13@0px;
+
+  width: 140px;
   border-radius: 35px;
   background-color: whitesmoke;
-  padding:3px;
-  height: 40px;
-}
+  padding:3px;     
+   height: 40px;
+  text-align: center;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  color:grey
+  }
    
   main{ 
   display:flex;
-  padding-left:50px;
-  margin-right: 50px;
-  flex-direction: row;
+  padding-left:100px;
   width: 100vw;
   height:500px;
-  background-color: lightsteelblue;
+  background-color: #d4f2f9;
   align-items: center;
-  color:darkblue;   
-  flex-direction: row;
+  color:#536DFE ;  
+   /* justify-content:center; */
 }
 
- .sectionizq{
-font-size: 22px;
-flex-grow:1;
+h1 {
+  font-size: 56px;
+  font-weight: 900;
 }
+
+h2 {
+  font-size:30px;
+}
+
+p {font-size: 20px;
+  }
+
+.sectionizq{
+  display:flex;
+justify-content: center;
+align-self: center;
+flex-direction: column;
+width: 50vw;
+}
+
+.loquehago{
+  width: 160px;
+  border-radius: 35px;
+  background-color: whitesmoke;
+  padding:10px;
+  margin-top: 15%;
+  height: 40px;
+  text-align: center;
+  color:darkblue
+}
+
 .sectionder{
-  flex-grow:1 
+  width:50vh;
+  padding-right: 200px;
   }
-  p{
-
-  }
+  
