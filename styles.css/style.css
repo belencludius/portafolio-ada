@@ -9,11 +9,13 @@ header{
   display:flex;
   justify-content: flex-end;
   flex-direction: row;
-  padding: 3%;
-  background-color:rgb(234, 235, 242)
-  
+  background-color:rgb(234, 235, 242);
+  padding-left:3%;
+  padding-right: 3%;
+  padding-top:2%;
+  padding-bottom: 2%;
   }
-   nav{  
+  nav{  
   margin-left: 50px; 
   margin-right:50px;
   }
@@ -21,27 +23,26 @@ header{
   display:flex;
   flex-direction: row;
   list-style:none;
-  }
+ }
+   
+.ml-50{
+ margin-left:50px;
+}
 
-  span{
-  padding-left:50px;  
-  }
   a{
   text-decoration: none;
-  color:rgb(3, 25, 155)
-}
+  color:rgb(3, 25, 155);
+  }
 .contacto{
-
+  display:flex;
   width: 140px;
   border-radius: 35px;
   background-color: whitesmoke;
-  padding:3px;     
-   height: 40px;
-  text-align: center;
-  margin-left: 4%;
-  margin-bottom: 2%;
-  color:grey
-  }
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color:darkblue; 
+ }
    
   main{ 
   display:flex;
@@ -51,8 +52,7 @@ header{
   background-color: #d4f2f9;
   align-items: center;
   color:#536DFE ;  
-   /* justify-content:center; */
-}
+ }
 
 h1 {
   font-size: 56px;
