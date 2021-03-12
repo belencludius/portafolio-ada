@@ -1,5 +1,5 @@
 *{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin:0%;
   box-sizing: border-box;
 }
@@ -48,7 +48,7 @@ header{
   display:flex;
   padding-left:100px;
   width: 100vw;
-  height:500px;
+  height:600px;
   background-color: #d4f2f9;
   align-items: center;
   color:#536DFE ;  
@@ -57,14 +57,16 @@ header{
 h1 {
   font-size: 56px;
   font-weight: 900;
+  color:#536DFE;
 }
-
 h2 {
-  font-size:30px;
+font-size:30px;
 }
-
-p {font-size: 20px;
-  }
+h3{
+  font-size:20px;
+  font-weight:500;
+  margin:2%;
+}
 
 .sectionizq{
   display:flex;
@@ -89,4 +91,58 @@ width: 50vw;
   width:50vh;
   padding-right: 200px;
   }
-  
+ .main2{ 
+  display:flex;
+  padding-left:100px;
+  width: 100vw;
+  height:900px;
+  background-color: #F0F7FC; 
+  align-items: center;
+  color:#536DFE ;  
+  justify-content: flex-start;
+  padding:10%;
+  flex-direction: column;
+ }
+
+p{
+  margin:2%;
+  color:darkblue;
+  text-align: center;
+}
+.cajas{
+  margin-top:3%;
+  display:flex
+}
+.cajita{
+  width:258px;
+  height:231px;
+  border-radius: 20%;
+  background-color:rgb(234, 235, 242);
+  margin:10px;
+}
+.main3{
+  padding-left:200px;
+  padding-right: 200px;
+  background-color: #536DFE ; 
+  color:rgb(234, 235, 242);
+  display:flex;
+  width: 100vw;
+  height:500px;
+  text-align: center;
+   }
+
+.main4{
+   
+  display:flex;
+  padding-left:100px;
+  width: 100vw;
+  height:900px;
+  background-color: #F0F7FC; 
+  align-items: center;
+  color:#536DFE ;  
+  justify-content: flex-start;
+  padding:10%;
+  flex-direction: column;
+}
+}
+ 
