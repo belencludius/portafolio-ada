@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./styles.css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/4a0c9bb6c8.js" crossorigin="anonymous"></script>
 
 
 
@@ -16,7 +16,7 @@
 <body>
   <header> 
         <nav>
-          <ul>
+          <ul class="ul1">
               <li> <span> <a href=#hola>HOLA </a></span></li>
               <li class="ml-50"> 
                 <span> <a href=#conocimientos>CONOCIMIENTOS </a></span></li>           
@@ -34,7 +34,7 @@
           <h1>Belén Cludius</h1>
           <h3>Estudiante de IT, abogada, versátil</h3p>
           <a name="hola"></a>
-          <div class="loquehago"> <a href=#loquehago></a>LO QUE HAGO</div>
+          <div class="loquehago"> <a href=#loquehago></a> <span> LO QUE HAGO</span></div>
     </div>
 
     <div class="sectionder">
@@ -47,14 +47,15 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit earum ex ut rerum tempore, at, nam eligendi sapiente soluta blanditiis! Iure veniam magni officiis veritatis quod porro repellat fugit.</p>
   
     <div class="cajas"> 
-      <div class="cajita"></div>
-      <div class="cajita"></div>
-      <div class="cajita"></div>
+      <div class="cajita"><i class="fab fa-html5"></i><h3>HTML 5</h3>
+      </div>
+      <div class="cajita"><i class="fab fa-css3-alt"></i> <h3> CSS 3 </h3> </div>
+      <div class="cajita"> <i class="fab fa-sass"></i> <h3>Sass</h3></div>
     </div>
-    <div class="cajas"> 
-      <div class="cajita"></div>
-      <div class="cajita"></div>
-      <div class="cajita"></div>
+    <div class="cajas">  
+      <div class="cajita"> <i class="fab fa-js"></i> <h3>JavaScript</h3></div>
+      <div class="cajita"><i class="fab fa-react"></i> <h3>React</h3></div>
+      <div class="cajita"><i class="fab fa-git-alt"></i><h3>GIT </h3></div>
       </div>
 </main>
 <main class="main3">
@@ -68,7 +69,86 @@
 </main>
 
 </main>
+<main class="main5">
+  <div class="enorme">
+      <div class="contactame">
+        <h1> Contactame</h1> 
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa est corporis, quo enim cumque incidunt, rem asperiores animi quidem quibusdam, deserunt deleniti saepe nostrum. Aliquam veritatis nihil facilis quod inventore?</p>
 
+        <ul>
+          <li>@beluuu</li>
+          <li>belencludius</li>
+          <li>belencludius</li>
+          <li>belencludius@gmail.com</li>
+        </ul>
+      </div>
+      <div class="escribime">  
+      <h1>Escribime</h1>
+        <form>
+          <div class="renglonentero">          
+            <label for="idNombre">Nombre* </label>
+            <label for="idApellido">Apellido* </label>
+            <br>
+          </div>
+
+          <div>
+            <input 
+              type="text"
+              id="idNombre"
+              maxlength="30"
+              size="20"
+              placeholder="por ejemplo: Belén">
+                          
+             <input type="text"
+                id="idApellido"
+                maxlength="30"
+                size="20"
+                placeholder="por ejemplo: Cludius">
+              </div> 
+
+         <div class="marg">
+            <label for="idemail">Email* </label>
+          </div> 
+          <div>
+             <input class="renglon"
+               type="text"
+               id="idemail"
+                maxlength="30"
+                size="20"
+                placeholder="por ejemplo: belencludius@gmail.com">
+          </div>
+          
+
+          <div class="marg">
+        <label for="idMensaje">Mensaje* </label><br />
+         <div class="marg">
+          <textarea id="idMensajes" cols="60" rows="6" maxlength="1000"
+          placeholder="Escriba un mensaje aquí"></textarea>
+          </div>
+        </div>
+        <button class="loquehago"> <span> Enviar</span></div>
+        </button>
+</form>
+</main>
+<footer>
+  <div>
+    <ul class="ul1 "> 
+    <li class="padd">HOLA</li>
+    <li class="padd">CONOCIMIENTOS</li>
+    <li class="padd">PROYECYOS</li>
+    <li class="padd"> CONTACTO</li>
+  </ul>
+</div>
+
+ <div class="iconos">
+<ul>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-github-alt"></i>
+   <i class="fab fa-instagram"></i>
+   <i class="fal fa-envelope"></i>
+   </ul>
+  </div>
+</footer>
 
 </body>
 </html>
