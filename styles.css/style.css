@@ -12,14 +12,16 @@ header{
   background-color:rgb(234, 235, 242);
   padding-left:3%;
   padding-right: 3%;
-  padding-top:2%;
-  padding-bottom: 2%;
+  padding-top:10px;
+  padding-bottom:10px;
   color:rgb(3, 25, 155);
   position:fixed;
   }
   nav{  
   margin-left: 50px; 
   margin-right:50px;
+  position: relative;
+  right:70px;
   }
   .ul1{
   display:flex;
@@ -30,11 +32,10 @@ header{
 .ml-50{
  margin-left:50px;
 }
-
   a{
   text-decoration: none;
-  
   }
+
 .contacto{
   display:flex;
   width: 160px;
@@ -45,9 +46,7 @@ header{
   height: 40px;
   color:white;
  }
- 
-   
-  main{ 
+   main{ 
   display:flex;
   padding-left:100px;
   width: 100vw;
@@ -70,7 +69,6 @@ h3{
   font-weight:500;
   margin:2%;
 }
-
 .sectionizq{
   display:flex;
 justify-content: center;
@@ -91,7 +89,6 @@ width: 50vw;
   align-items: center;
   color:white;
 }
-
 .sectionder{
   width:50vh;
   padding-right: 200px;
@@ -125,14 +122,22 @@ p{
   width:258px;
   height:231px;
   border-radius: 20%;
-  background-color:rgb(234, 235, 242);
+  background-color:white;
   margin:10px;
   font-size: 150px;
   padding-left:3px;
   align-items:center;
   justify-content: center;
   flex-direction: column;
+  color:black
 }
+.html{color:rgb(229, 77, 40)}
+.css{color:rgb(60, 143, 198)}
+.sss{color:rgb(204, 102, 153)}
+.js{color:rgb(240, 219, 80)}
+.react{color:rgb(98, 217, 251)}
+.git{color:rgb(243, 79, 41)}
+
 .main3{
   padding-left:200px;
   padding-right: 200px;
@@ -148,7 +153,7 @@ p{
   display:flex;
   padding-left:100px;
   width: 100vw;
-  height:900px;
+  height:1600px;
   background-color: #F0F7FC; 
   align-items: center;
   color:#536DFE ;  
@@ -156,7 +161,25 @@ p{
   padding:10%;
   flex-direction: column;
 }
+.proyectos{
+  display:flex;
+  width:340px;
+  height:340px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin:5px;
+  font-size: 50px;
+  padding-left:3px;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+
+.c1{
+  position: relative;
+  right:350px;
+}
 .enorme{
   margin-top:12%;
   border-radius: 25px solid grey;
@@ -166,6 +189,8 @@ p{
   display: flex;
    justify-content: flex-start;
   align-items:flex-start;
+  position: relative;
+  bottom: 50px;
 }
 .contactame{
   width: 50%;
@@ -174,11 +199,9 @@ p{
   padding-top:5%;
   padding-right:3%
 }
-
 ul{
   padding-top: 10%;
 }
-
 .escribime{
   flex-grow: 1;
   height: 100%;
@@ -198,28 +221,37 @@ label{
     margin-right: 140px;
   }
 input{
-  border-radius: 25% solid lightgray;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin:5px;
   width:200px;
   height: 30px;
   margin-top: 3%;
   margin-left:3%;
   flex-direction: row;
+  position: relative;
+  right:20px
   }
 
 .marg{
   margin-top:3%;
-  margin-bottom: 3%;
-}
+  margin-bottom: 3%;}
+/* .a1{
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+ } */ 
+
 .renglon{
-    border-radius: 25% solid lightgray;
-  width:420px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  width:430px;
   height: 30px;
-  margin-top: 3%;
+  margin-top:2%;
   margin-left:3%;
   flex-direction: row;
 }
 .main5{
-display:flex;
+  display:flex;
   padding-left:100px;
   width: 100vw;
   height:800px;
@@ -229,22 +261,70 @@ display:flex;
  }
  
  footer{
-  padding-left:200px;
-  padding-right: 200px;
+  /* padding-left:200px;
+  padding-right: 200px; */
   background-color: #536DFE ; 
   color:rgb(234, 235, 242);
   display:flex;
   width: 100vw;
-  height:500px;
-  text-align: center;
-  flex-direction: row;
-  justify-content: center;
+  height:300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
  }
  
  .padd{
    padding:10px
  }
- .iconos{
-   
-   font-size: ;
+.todoslosiconos{
+ display: flex;
+justify-content: center;
+flex-direction: row;}
+
+.iconos{
+  display:flex;
+  width:50px;
+  height:50px;
+  background-color: white;
+  color: #536DFE ;
+  border-radius: 50%;
+   margin:10px;
+  font-size: 30px;
+  padding-left:1px;
+  align-items:center;
+  justify-content: center;
+  /* flex-direction: column; */
  }
+.ul2{
+ display:flex;
+ flex-direction: row;
+ list-style:none;
+ align-items:center;
+  justify-content: center;
+}
+.corazon{
+  color:red
+}
+.p1{color:white;
+  padding-top: 3%;
+}
+ul{
+  list-style:none;
+  font-size: 20px;
+  }
+  li{
+    margin-bottom:5%
+  }
+  @media screen and (max-width 400px){
+  header{display:none;
+  }
+  main{
+    flex-direction: column;
+    display:flex
+  }
+  .enorme{
+    flex-direction: column;
+    display:flex
+  }
+    
+    }
