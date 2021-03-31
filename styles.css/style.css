@@ -9,13 +9,14 @@ header{
   display:flex;
   justify-content: flex-end;
   flex-direction: row;
-  background-color:rgb(234, 235, 242);
+  background-color:rgb(226, 228, 240);
   padding-left:3%;
   padding-right: 3%;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:5px;
+  padding-bottom:5px;
   color:rgb(3, 25, 155);
   position:fixed;
+  z-index: 100;
   }
   nav{  
   margin-left: 50px; 
@@ -27,15 +28,46 @@ header{
   display:flex;
   flex-direction: row;
   list-style:none;
- }
-   
-.ml-50{
- margin-left:50px;
 }
-  a{
-  text-decoration: none;
-  }
+.ml-50{
+margin-left:50px;
+}
+a{
+text-decoration: none;}
 
+a .nav-link:link{
+color:rgb(3, 25, 155);
+}
+a .nav-link:visited{
+color:rgb(3, 25, 155);
+} 
+.nav-link:hover{
+color:grey;
+}
+.contacto:hover{
+opacity:60%
+} 
+.loquehago:hover{
+opacity:60%;
+}
+.nav-link:active {
+  height: 40px;
+  border-radius: 35px;
+  border:1px solid grey;
+  box-shadow: 10px 10px 5px 2px rgba(83,109,254,0.75);
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  }
+  .hola:active{
+    width: 100px;
+  }
+  .conoc{
+    width:210px;
+  }
+  .proyecto{
+    width:180px
+  }
 .contacto{
   display:flex;
   width: 160px;
@@ -44,17 +76,19 @@ header{
   justify-content: center;
   align-items: center;
   height: 40px;
-  color:white;
- }
-   main{ 
-  display:flex;
-  padding-left:100px;
-  width: 100vw;
-  height:800px;
-  background-color: #d4f2f9;
-  align-items: center;
-  color:#536DFE ;  
- }
+  }
+.nav-cont{color:white}
+
+main{ 
+display:flex;
+padding-left:100px;
+width: 100vw;
+height:800px;
+background-color: rgb(234, 248, 252);
+align-items: center;
+color:#536DFE ;  
+justify-content: center;
+}
 
 h1 {
   font-size: 56px;
@@ -82,18 +116,18 @@ width: 50vw;
   width: 180px;
   border-radius: 35px;
   background-color: #536DFE;
-  margin-top: 10%;
-  height: 50px;
-  color:darkblue;
+  margin-top: 5%;
+  height: 40px;
   justify-content: center;
   align-items: center;
   color:white;
-}
+  }
 .sectionder{
   width:50vh;
-  padding-right: 200px;
+  padding-right: 500px; 
   }
- .main2{ 
+  
+  .main2{ 
   display:flex;
   padding-left:100px;
   width: 100vw;
@@ -138,6 +172,11 @@ p{
 .react{color:rgb(98, 217, 251)}
 .git{color:rgb(243, 79, 41)}
 
+.cajita:hover{
+  border:1px solid #536DFE;
+  color:#536DFE
+}
+
 .main3{
   padding-left:200px;
   padding-right: 200px;
@@ -147,6 +186,7 @@ p{
   width: 100vw;
   height:500px;
   text-align: center;
+  flex-direction: column;
  }
 
 .main4{
@@ -173,31 +213,50 @@ p{
   align-items:center;
   justify-content: center;
   flex-direction: column;
+  color:darkblue;
 }
-
+.proyectos:hover{
+  border:1px solid #536DFE;
+  color:#536DFE
+}
 
 .c1{
   position: relative;
   right:350px;
 }
 .enorme{
-  margin-top:12%;
-  border-radius: 25px solid grey;
-  width:85vw;
-  height: 85vh;
-  background-color:white;
-  display: flex;
-   justify-content: flex-start;
-  align-items:flex-start;
-  position: relative;
-  bottom: 50px;
+ margin-top:12%;
+ border-radius: 25px solid darkblue;
+ width:85vw;
+ height: 85vh;
+ background-color:white;
+ display: flex;
+ justify-content: flex-start;
+ align-items:flex-start;
+ position: relative;
+ bottom: 50px;
 }
+.redSocial:hover{
+  color:darkblue;
+}
+.icon:hover{
+  display:flex;
+  width:50px;
+  height:50px;
+  background-color: white;
+  color: #536DFE ;
+  border-radius: 50%;
+  margin:10px;
+  align-items:center;
+  justify-content: center;
+}  
+
 .contactame{
   width: 50%;
   height: 100%;
   padding-left:10%;
-  padding-top:5%;
-  padding-right:3%
+  padding-right:3%;
+  margin-top:50px;
 }
 ul{
   padding-top: 10%;
@@ -205,42 +264,38 @@ ul{
 .escribime{
   flex-grow: 1;
   height: 100%;
-  padding-left:10%;
-  padding-top:5%;
+  padding-left:10%;  
   display:flex;
   flex-direction: column;
+  margin-top: 50px;
 }
- .renglonentero{
-   width:80vh;
-   display: flex;
-   flex-direction: row;
-   margin-top: 2%;
-  } 
+.renglonentero{
+width:80vh;
+display: flex;
+flex-direction: row;
+margin-top: 2%;
+} 
 
 label{
-    margin-right: 140px;
-  }
+margin-right: 140px;
+}
 input{
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
-  margin:5px;
-  width:200px;
-  height: 30px;
-  margin-top: 3%;
-  margin-left:3%;
-  flex-direction: row;
-  position: relative;
-  right:20px
-  }
+border-radius: 8px;
+border: 1px solid #e0e0e0;
+margin:5px;
+width:200px;
+height: 30px;
+margin-top: 3%;
+margin-left:3%;
+flex-direction: row;
+position: relative;
+right:20px
+}
 
 .marg{
-  margin-top:3%;
-  margin-bottom: 3%;}
-/* .a1{
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
- } */ 
-
+margin-top:3%;
+margin-bottom: 3%;
+}
 .renglon{
   border-radius: 8px;
   border: 1px solid #e0e0e0;
@@ -251,33 +306,36 @@ input{
   flex-direction: row;
 }
 .main5{
-  display:flex;
-  padding-left:100px;
-  width: 100vw;
-  height:800px;
-  background-color: #d4f2f9;
-  align-items: center;
-  color:#536DFE ;  
- }
- 
- footer{
-  /* padding-left:200px;
-  padding-right: 200px; */
-  background-color: #536DFE ; 
-  color:rgb(234, 235, 242);
-  display:flex;
-  width: 100vw;
-  height:300px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
- }
- 
- .padd{
-   padding:10px
- }
+display:flex;
+padding-left:100px;
+width: 100vw;
+height:800px;
+background-color: #d4f2f9;
+align-items: center;
+color:#536DFE ;  
+border-radius: 8px;
+border: 1px solid #e0e0e0;
+
+}
+
+footer{
+/* padding-left:200px;
+padding-right: 200px; */
+background-color: #536DFE ; 
+color:rgb(234, 235, 242);
+display:flex;
+width: 100vw;
+height:300px;
+align-items: center;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.padd{
+padding:10px
+}
 .todoslosiconos{
- display: flex;
+display: flex;
 justify-content: center;
 flex-direction: row;}
 
@@ -288,13 +346,17 @@ flex-direction: row;}
   background-color: white;
   color: #536DFE ;
   border-radius: 50%;
-   margin:10px;
+  margin:10px;
   font-size: 30px;
   padding-left:1px;
   align-items:center;
   justify-content: center;
-  /* flex-direction: column; */
- }
+}
+.iconos:hover{
+ background-color:grey; 
+}
+
+
 .ul2{
  display:flex;
  flex-direction: row;
@@ -315,7 +377,7 @@ ul{
   li{
     margin-bottom:5%
   }
-  @media screen and (max-width 400px){
+  @media screen and (max-width: 400px){
   header{display:none;
   }
   main{
@@ -326,5 +388,5 @@ ul{
     flex-direction: column;
     display:flex
   }
-    
-    }
+  
+   
